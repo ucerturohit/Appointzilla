@@ -107,7 +107,7 @@ global $wpdb;
 
 
 
-	//default calendar options & settings
+	//default calendar options & settings default is 30min
 	add_option('calendar_slot_time', '30');		// 30 min slots
 	add_option('day_start_time', '10:00 AM');	// 10:00 AM
 	add_option('day_end_time', '5:00 PM');		// 5:00 PM
